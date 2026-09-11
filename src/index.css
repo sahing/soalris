@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-gold: #C9A83E;
+  --color-gold-hover: #B89632;
+  --color-ink: #1A1A1A;
+  --color-ink-light: #262626;
+  --color-secondary-gray: #6B6B6B;
+  --color-border-line: #D9D9D9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom angular button reset to ensure sharp corners */
+.btn-gold {
+  background-color: #C9A83E;
+  color: #1A1A1A;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8125rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0px !important;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-gold:hover {
+  background-color: #B89632;
+}
+
+.btn-black {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8125rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0px !important;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-black:hover {
+  background-color: #333333;
+}
+
